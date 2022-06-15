@@ -8,7 +8,7 @@ The counts file created with the featurecounts is changed to txt file after crea
 In Rstudio: 
 
 make 3 folders: Counts, meta, scripts
-upload your Counts file, meta file and the scripts (Limmavoom.R, Function.R)
+upload your Counts file, meta file and the scripts (Limmavoom.R, Function.R, random_numbers.R)
 
 Open script limmavoom.R and install required packages. 
 also need to install: glimma, edgeR
