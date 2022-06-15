@@ -28,4 +28,7 @@ BiocManager::install("edgeR")
 Run limmavroom.R
 After running Limma, load the Riboseq_control-RNAseq_control_up and Riboseq_sample-RNAseq_sample_up in Venny 2.1.0 (https://bioinfogp.cnb.csic.es/tools/venny/).
 Paste the results back in galaxy as tabular with GeneID as header. name = geneID_upregulation
-and to the same for the downregulation: Riboseq_control-RNAseq_control_down, Riboseq_sample-RNAseq_sample_down
+and to the same for the downregulation: Riboseq_control-RNAseq_control_down, Riboseq_sample-RNAseq_sample_down. 
+
+Run random_numbers.R 
+change the random numbers into the same amount as upregulated DEGs and repeat for downregulated DEGs
