@@ -35,7 +35,7 @@ and to the same for the downregulation: Riboseq_control-RNAseq_control_down, Rib
 
 upload de DEG_AllContrast_ in galaxy and follow workflow_3 to create 1 DEG file and feature files with start and stop position. 
 
-download the tabular files (3 UTR, Transcript, 5 UTR) to excel, change to xls and remove everything in column 3 except the geneID. (this can be done by text to columns(tab). Add header and Upload the files as tabular. 
+download the tabular files (3 UTR, Transcript, 5 UTR) to excel, change to xls and remove everything in column 3 except the geneID. (this can be done by text to columns(tab). Add header and Upload the xls files as tabular. 
 
 
 Run random_numbers.R 
