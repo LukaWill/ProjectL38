@@ -39,8 +39,10 @@ download the tabular files (3 UTR, Transcript, 5 UTR) to excel, change to xls an
 The follow workflow_4 until all GeneID have an Length. Download it in excel and remove the .0 to make it an integer. Then create a pivottable for the maximum length for each geneID. Rename the header and save as .txt (max_3, max_5, max_transcript)
 
 
-
 Run random_numbers.R 
 change the random numbers into the same amount as upregulated DEGs and repeat for downregulated DEGs
+
+Download the Riboseq_sample-RNAseq_sample_.csv file make it an txt file and upload it in galaxy
+
 
 
