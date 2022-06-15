@@ -1,0 +1,11 @@
+Name,LibraryName,Replicate,Sample,Population,Genotype
+Riboseq_control_1,Riboseq_control_1,1,RS,Riboseq,control
+Riboseq_control_2,Riboseq_control_2,2,RS,Riboseq,control
+Riboseq_sample_1,Riboseq_sample_1,1,RS,Riboseq,sample
+Riboseq_sample_2,Riboseq_sample_2,2,RS,Riboseq,sample
+RNAseq_control_1,RNAseq_control_1,1,TOT,RNAseq,control
+RNAseq_control_2,RNAseq_control_1,2,TOT,RNAseq,control
+RNAseq_control_3,RNAseq_control_3,3,TOT,RNAseq,control
+RNAseq_sample_1,RNAseq_sample_1,1,TOT,RNAseq,sample
+RNAseq_sample_2,RNAseq_sample_2,2,TOT,RNAseq,sample
+RNAseq_sample_3,RNAseq_sample_2,3,TOT,RNAseq,sample
