@@ -52,7 +52,7 @@ For the uORF plot, first the plot was made in Descending order on highest Averag
 Disclaimer: All data was performed in galaxy 2 times. THe first time without workflow. With this data the 150 genes were selected. But second time not all of those 150 genes where upregulated or downregulated DEGs. So only 50 of the first results where choosen and also 50 of the random genes. 
 
 
-In the directory R_galaxy_data all data received from R is present. All files that are uploaded in Galaxy are in the galaxy_uploaded_files directory
+In the directory R_galaxy_data all data received from R is present. All files that are uploaded in Galaxy are in the galaxy_upload_files directory
 
 
 
