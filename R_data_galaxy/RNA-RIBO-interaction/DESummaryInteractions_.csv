@@ -1,0 +1,5 @@
+,Downregulated,Upregulated
+Riboseq_sample-Riboseq_control,428,509
+RNAseq_sample-RNAseq_control,4,1
+Riboseq_control-RNAseq_control,1519,1269
+Riboseq_sample-RNAseq_sample,1322,1257
