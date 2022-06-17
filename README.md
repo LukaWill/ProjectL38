@@ -44,9 +44,6 @@ change the random numbers into the same amount as upregulated DEGs and repeat fo
 
 Now the plot scripts can be performed(plot_3UTR, plot_5UTR, plot_transcript). 
 
-Download the Riboseq_sample-RNAseq_sample_.csv file make it an txt file and upload it in galaxy. 
-..........
-
 For the uORF plot, first the plot was made in Descending order on highest Average Expression. Then the first 150 genes for upregulation/downregulation and Random genes where searched in Uorfligth(http://uorflight.whu.edu.cn/), And the uorfs with the highest length of each GeneID was put in an xls file. Here 50 genes where used for making the plot. 
 
 Disclaimer: All data was performed in galaxy 2 times. THe first time without workflow. With this data the 150 genes were selected. But second time not all of those 150 genes where upregulated or downregulated DEGs. So only 50 of the first results where choosen and also 50 of the random genes. 
