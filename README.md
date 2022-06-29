@@ -1,8 +1,7 @@
 # ProjectL38
 
 pipeline created with galaxy workflow
-For workflow_1 a gtf and fasta file needs to be uploaded. 
-After feature counts the tool extract dataset needs to be used, to extract al datasets in featurecounts(not visible in the workflow) and these can be renamed and used for workflow_2, where the files are made for limma. 
+Before workflow_1 starts the data needs to be downloaded with faster download and the SRR numbers, then the data can be extracted by using extract dataset 2 times. The last data is the input data for workflow_1. Also a gtf file needs to be uploaded. 
 The counts file created with the featurecounts is changed to txt file after creating it. 
 
 In Rstudio: 
@@ -33,10 +32,10 @@ Then copie the geneIDs in Venny 2.1.0 (https://bioinfogp.cnb.csic.es/tools/venny
 Paste the results back in galaxy as tabular with GeneID as header. name = DEG_upregulation
 and to the same for the downregulation: Riboseq_control-RNAseq_control_down, Riboseq_sample-RNAseq_sample_down. 
 
-upload de DEG_AllContrast_ in galaxy and follow workflow_3 to create 1 DEG file and feature files with start and stop position. 
+upload de DEG_AllContrast_ in galaxy and follow workflow_2 to create 1 DEG file and feature files with start and stop position. 
 
 download the tabular files (3 UTR, Transcript, 5 UTR) to excel, change to xls and remove everything in column 3 except the geneID. (this can be done by text to columns(tab). Add header and Upload the xls files as tabular. 
-The follow workflow_4 until all GeneID have an Length. Download it in excel and remove the .0 to make it an integer. Then create a pivottable for the maximum length for each geneID. Rename the header and save as .txt (max_3, max_5, max_transcript)
+The follow workflow_3 until all GeneID have an Length. Download it in excel and remove the .0 to make it an integer. Then create a pivottable for the maximum length for each geneID. Rename the header and save as .txt (max_3, max_5, max_transcript)
 
 
 Run random_numbers.R 
