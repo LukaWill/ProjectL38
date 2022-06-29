@@ -1,4 +1,4 @@
-setwd("~/Project_bioinformatics/GALAXY!!!/Project_bioinformatics")
+setwd("~/Project_bioinformatics")
 require(ggplot2)
 library(RColorBrewer)
 library(dplyr)
