@@ -1,0 +1,909 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "format-version": "0.1",
+    "name": "workflow_2",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Riboseq_control-RNAseq_control_up.csv"
+                }
+            ],
+            "label": "Riboseq_control-RNAseq_control_up.csv",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 370.671875,
+                "height": 82.171875,
+                "left": 254.5,
+                "right": 454.5,
+                "top": 288.5,
+                "width": 200,
+                "x": 254.5,
+                "y": 288.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "c63aba1f-6613-4a23-8b05-6d27517759e3",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "fe4f74b5-d560-4503-94d2-0404b8a77f7c"
+                }
+            ]
+        },
+        "1": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 1,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Riboseq_sample-RNAseq_sample_down.csv"
+                }
+            ],
+            "label": "Riboseq_sample-RNAseq_sample_down.csv",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 514.671875,
+                "height": 82.171875,
+                "left": 254.5,
+                "right": 454.5,
+                "top": 432.5,
+                "width": 200,
+                "x": 254.5,
+                "y": 432.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "fc11b628-affd-4ff5-9d34-a2fb75230e19",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "99428a0f-fcfe-4a4d-867b-c5bf3455c2d8"
+                }
+            ]
+        },
+        "2": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 2,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "DEG_upregulation"
+                }
+            ],
+            "label": "DEG_upregulation",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 226.671875,
+                "height": 82.171875,
+                "left": 532.5,
+                "right": 732.5,
+                "top": 144.5,
+                "width": 200,
+                "x": 532.5,
+                "y": 144.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "5604d842-40c0-4187-aee4-520969da1e24",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "0bca9c23-5d54-471b-9380-6da748d3620a"
+                }
+            ]
+        },
+        "3": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 3,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "DEG_downregulation"
+                }
+            ],
+            "label": "DEG_downregulation",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 226.671875,
+                "height": 82.171875,
+                "left": 810.5,
+                "right": 1010.5,
+                "top": 144.5,
+                "width": 200,
+                "x": 810.5,
+                "y": 144.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "6a6182b7-8470-44e2-879e-965b9f521555",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "bb1fb4d9-9db9-4fc1-8b48-f91a308c6e88"
+                }
+            ]
+        },
+        "4": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 4,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "hg38.refGene.gtf.gz"
+                }
+            ],
+            "label": "hg38.refGene.gtf.gz",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 882.671875,
+                "height": 82.171875,
+                "left": 254.5,
+                "right": 454.5,
+                "top": 800.5,
+                "width": 200,
+                "x": 254.5,
+                "y": 800.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "60fd5d42-c51a-48c6-98bf-bf614e26a06f",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "896b136e-1a67-4b20-82ad-859b4b414e8d"
+                }
+            ]
+        },
+        "5": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 5,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Riboseq_control-RNAseq_control_down.csv"
+                }
+            ],
+            "label": "Riboseq_control-RNAseq_control_down.csv",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 370.671875,
+                "height": 82.171875,
+                "left": 810.5,
+                "right": 1010.5,
+                "top": 288.5,
+                "width": 200,
+                "x": 810.5,
+                "y": 288.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "d8bbee44-c6b7-42ce-87bb-7ff0fd2718e6",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "14e01cce-f23a-4b35-b56c-409a07a3ad38"
+                }
+            ]
+        },
+        "6": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 6,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "DEG_AllContrasts_.csv"
+                }
+            ],
+            "label": "DEG_AllContrasts_.csv",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 520.671875,
+                "height": 82.171875,
+                "left": 810.5,
+                "right": 1010.5,
+                "top": 438.5,
+                "width": 200,
+                "x": 810.5,
+                "y": 438.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "37c21b60-f1d2-4651-9ec5-07b8b501ae16",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "3427c403-416b-4a85-aa3e-4806f6c9b4b5"
+                }
+            ]
+        },
+        "7": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 7,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Riboseq_sample-RNAseq_sample_up.csv"
+                }
+            ],
+            "label": "Riboseq_sample-RNAseq_sample_up.csv",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 226.671875,
+                "height": 82.171875,
+                "left": 1088.5,
+                "right": 1288.5,
+                "top": 144.5,
+                "width": 200,
+                "x": 1088.5,
+                "y": 144.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "a486e2c6-bc2e-4b36-a5d7-1cd7fb7cad0c",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "8aadee96-7628-463c-987d-024e53b0173d"
+                }
+            ]
+        },
+        "8": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 8,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "header"
+                }
+            ],
+            "label": "header",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 625.28125,
+                "height": 61.78125,
+                "left": 1088.5,
+                "right": 1288.5,
+                "top": 563.5,
+                "width": 200,
+                "x": 1088.5,
+                "y": 563.5
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "85f0f606-88c7-42a3-855b-afee856c3a95",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "a2cbeae0-ba2a-449d-958a-270e91415675"
+                }
+            ]
+        },
+        "9": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 9,
+            "input_connections": {
+                "input": {
+                    "id": 0,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 394.671875,
+                "height": 93.171875,
+                "left": 532.5,
+                "right": 732.5,
+                "top": 301.5,
+                "width": 200,
+                "x": 532.5,
+                "y": 301.5
+            },
+            "post_job_actions": {},
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"csv\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c2\", \"delimiter\": \"C\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "6013de81-6b72-4769-b2a7-35877ef69475",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "017a27c1-8a9e-4c65-b06e-100914e4c64e"
+                }
+            ]
+        },
+        "10": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 10,
+            "input_connections": {
+                "input": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 538.671875,
+                "height": 93.171875,
+                "left": 532.5,
+                "right": 732.5,
+                "top": 445.5,
+                "width": 200,
+                "x": 532.5,
+                "y": 445.5
+            },
+            "post_job_actions": {},
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"csv\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c2\", \"delimiter\": \"C\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "6563aa6c-40f2-4d69-99a9-5e1a8a13029c",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "428bb102-98a0-462a-91e3-950dae6e9f0a"
+                }
+            ]
+        },
+        "11": {
+            "annotation": "",
+            "content_id": "Extract_features1",
+            "errors": null,
+            "id": 11,
+            "input_connections": {
+                "input1": {
+                    "id": 4,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Extract features",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 756.671875,
+                "height": 93.171875,
+                "left": 532.5,
+                "right": 732.5,
+                "top": 663.5,
+                "width": 200,
+                "x": 532.5,
+                "y": 663.5
+            },
+            "post_job_actions": {},
+            "tool_id": "Extract_features1",
+            "tool_state": "{\"__input_ext\": \"gtf\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"column_choice\": {\"col\": \"2\", \"__current_case__\": 2, \"feature\": [\"5UTR\"]}, \"input1\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "ce6feee0-1169-4c9c-a8bb-64985892a964",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "a0a64cd3-2dc4-40ea-a43e-141c9fb433de"
+                }
+            ]
+        },
+        "12": {
+            "annotation": "",
+            "content_id": "Extract_features1",
+            "errors": null,
+            "id": 12,
+            "input_connections": {
+                "input1": {
+                    "id": 4,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Extract features",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 887.671875,
+                "height": 93.171875,
+                "left": 532.5,
+                "right": 732.5,
+                "top": 794.5,
+                "width": 200,
+                "x": 532.5,
+                "y": 794.5
+            },
+            "post_job_actions": {},
+            "tool_id": "Extract_features1",
+            "tool_state": "{\"__input_ext\": \"gtf\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"column_choice\": {\"col\": \"2\", \"__current_case__\": 2, \"feature\": [\"3UTR\"]}, \"input1\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "e5310037-20d5-4f07-9a9c-0d1b9ed8b60b",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "94cc3c51-c854-4fc2-8426-c0111f007b52"
+                }
+            ]
+        },
+        "13": {
+            "annotation": "",
+            "content_id": "Extract_features1",
+            "errors": null,
+            "id": 13,
+            "input_connections": {
+                "input1": {
+                    "id": 4,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Extract features",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 1018.671875,
+                "height": 93.171875,
+                "left": 532.5,
+                "right": 732.5,
+                "top": 925.5,
+                "width": 200,
+                "x": 532.5,
+                "y": 925.5
+            },
+            "post_job_actions": {},
+            "tool_id": "Extract_features1",
+            "tool_state": "{\"__input_ext\": \"gtf\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"column_choice\": {\"col\": \"2\", \"__current_case__\": 2, \"feature\": [\"transcript\"]}, \"input1\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "a090fdc8-5d4a-44a6-8bee-c50d1e607fdd",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "abf8f8ad-b788-4bb1-ae51-1147f13f3807"
+                }
+            ]
+        },
+        "14": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 14,
+            "input_connections": {
+                "input": {
+                    "id": 5,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 394.671875,
+                "height": 93.171875,
+                "left": 1088.5,
+                "right": 1288.5,
+                "top": 301.5,
+                "width": 200,
+                "x": 1088.5,
+                "y": 301.5
+            },
+            "post_job_actions": {},
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"csv\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c2\", \"delimiter\": \"C\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "d7dbf133-ed77-47e4-936a-0ffcd0327d23",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "5ca68735-7c0a-438e-9c66-73b80f8d8b2a"
+                }
+            ]
+        },
+        "15": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "errors": null,
+            "id": 15,
+            "input_connections": {
+                "input": {
+                    "id": 6,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Advanced Cut",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 525.671875,
+                "height": 93.171875,
+                "left": 1088.5,
+                "right": 1288.5,
+                "top": 432.5,
+                "width": 200,
+                "x": 1088.5,
+                "y": 432.5
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ddf54b12c295",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"csv\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"complement\": \"\", \"cut_type_options\": {\"cut_element\": \"-f\", \"__current_case__\": 0, \"list\": [\"1\"]}, \"delimiter\": \",\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "21bb2813-c2a0-43a7-ac0c-e74d3d673ff2",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "264013fe-e4c9-47b0-9b14-6c3bafc93b3c"
+                }
+            ]
+        },
+        "16": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 16,
+            "input_connections": {
+                "input": {
+                    "id": 7,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 250.671875,
+                "height": 93.171875,
+                "left": 1366.5,
+                "right": 1566.5,
+                "top": 157.5,
+                "width": 200,
+                "x": 1366.5,
+                "y": 157.5
+            },
+            "post_job_actions": {},
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"csv\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c2\", \"delimiter\": \"C\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "61d28ef6-da50-4452-91fc-537657a72861",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "1b33fd6c-7884-42d7-b55e-6961032fad8b"
+                }
+            ]
+        },
+        "17": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "errors": null,
+            "id": 17,
+            "input_connections": {
+                "input": {
+                    "id": 11,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Advanced Cut",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 775.671875,
+                "height": 93.171875,
+                "left": 810.5,
+                "right": 1010.5,
+                "top": 682.5,
+                "width": 200,
+                "x": 810.5,
+                "y": 682.5
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ddf54b12c295",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"gtf\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"complement\": \"\", \"cut_type_options\": {\"cut_element\": \"-f\", \"__current_case__\": 0, \"list\": [\"4\", \"5\", \"9\"]}, \"delimiter\": \"\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "7250df1a-0caf-4294-8697-b7d914676bf4",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "4d22a6c4-16a3-43ea-8dc4-6b815454191c"
+                }
+            ]
+        },
+        "18": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "errors": null,
+            "id": 18,
+            "input_connections": {
+                "input": {
+                    "id": 12,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Advanced Cut",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 906.671875,
+                "height": 93.171875,
+                "left": 810.5,
+                "right": 1010.5,
+                "top": 813.5,
+                "width": 200,
+                "x": 810.5,
+                "y": 813.5
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ddf54b12c295",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"gtf\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"complement\": \"\", \"cut_type_options\": {\"cut_element\": \"-f\", \"__current_case__\": 0, \"list\": [\"4\", \"5\", \"9\"]}, \"delimiter\": \"\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "fd3f3be0-747f-4ded-9388-2ae9fe46d48e",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "7b528ac0-240a-49dc-9557-d80c200b929a"
+                }
+            ]
+        },
+        "19": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "errors": null,
+            "id": 19,
+            "input_connections": {
+                "input": {
+                    "id": 13,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Advanced Cut",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 1037.671875,
+                "height": 93.171875,
+                "left": 810.5,
+                "right": 1010.5,
+                "top": 944.5,
+                "width": 200,
+                "x": 810.5,
+                "y": 944.5
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ddf54b12c295",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"gtf\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"complement\": \"\", \"cut_type_options\": {\"cut_element\": \"-f\", \"__current_case__\": 0, \"list\": [\"4\", \"5\", \"9\"]}, \"delimiter\": \"\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "bcf83e30-26ea-438f-95a4-2aa272566eaf",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "5b6ae818-507c-4cb3-a2ce-ddb763933510"
+                }
+            ]
+        },
+        "20": {
+            "annotation": "",
+            "content_id": "cat1",
+            "errors": null,
+            "id": 20,
+            "input_connections": {
+                "input1": {
+                    "id": 8,
+                    "output_name": "output"
+                },
+                "queries_0|input2": {
+                    "id": 15,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Concatenate datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 591.453125,
+                "height": 143.953125,
+                "left": 1366.5,
+                "right": 1566.5,
+                "top": 447.5,
+                "width": 200,
+                "x": 1366.5,
+                "y": 447.5
+            },
+            "post_job_actions": {},
+            "tool_id": "cat1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/data/galaxy/var/tool-data/shared/ucsc/chrom/?.len\", \"input1\": {\"__class__\": \"ConnectedValue\"}, \"queries\": [{\"__index__\": 0, \"input2\": {\"__class__\": \"ConnectedValue\"}}], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "8f46ec8f-ec53-43ed-aa05-2cd7a2521466",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "3e5862e1-1101-4cbc-b36d-6780d6ab526b"
+                }
+            ]
+        }
+    },
+    "tags": [],
+    "uuid": "1daf554f-e431-4e29-bac6-fe1138147cc6",
+    "version": 3
+}
